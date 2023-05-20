@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.88eacc42.css",
+    "main.js": "/react-gh-pages/static/js/main.90e5f15e.js",
+    "static/js/787.be8f2d13.chunk.js": "/react-gh-pages/static/js/787.be8f2d13.chunk.js",
+    "static/media/food6.jpeg": "/react-gh-pages/static/media/food6.cc055c9d37d7dfaa8c5c.jpeg",
+    "static/media/food2.jpeg": "/react-gh-pages/static/media/food2.de55d62a4c91d591d98d.jpeg",
+    "static/media/food5.jpeg": "/react-gh-pages/static/media/food5.c6de458f7aac71ff2f74.jpeg",
+    "static/media/food1.jpeg": "/react-gh-pages/static/media/food1.6dd26585f1c209259032.jpeg",
+    "static/media/food3.jpeg": "/react-gh-pages/static/media/food3.ee70222570dd6a6acee9.jpeg",
+    "static/media/food4.jpeg": "/react-gh-pages/static/media/food4.57859a20ad52bbcc6fb9.jpeg",
+    "static/media/bg.png": "/react-gh-pages/static/media/bg.8a4aef6d7d47c826d7ff.png",
+    "static/media/reservations.png": "/react-gh-pages/static/media/reservations.10de40c1bbaea7ebdccc.png",
+    "static/media/food8.jpeg": "/react-gh-pages/static/media/food8.b432a0c705acb978d222.jpeg",
+    "static/media/food7.jpeg": "/react-gh-pages/static/media/food7.e2314390183416053fbc.jpeg",
+    "static/media/profileBg.jpeg": "/react-gh-pages/static/media/profileBg.bc7c96ca3eed9ed649f8.jpeg",
+    "static/media/logo.png": "/react-gh-pages/static/media/logo.1b6c684c8e5e9d6aba71.png",
+    "static/media/profile.jpeg": "/react-gh-pages/static/media/profile.f7bf3dcb39ec1bc4d5ac.jpeg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.88eacc42.css.map": "/react-gh-pages/static/css/main.88eacc42.css.map",
+    "main.90e5f15e.js.map": "/react-gh-pages/static/js/main.90e5f15e.js.map",
+    "787.be8f2d13.chunk.js.map": "/react-gh-pages/static/js/787.be8f2d13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88eacc42.css",
+    "static/js/main.90e5f15e.js"
+  ]
+}
