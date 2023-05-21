@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/baserri/static/css/main.f6237f94.css",
-    "main.js": "/baserri/static/js/main.5a1ab465.js",
+    "main.css": "/baserri/static/css/main.cefb61ee.css",
+    "main.js": "/baserri/static/js/main.42259dc8.js",
     "static/js/787.be8f2d13.chunk.js": "/baserri/static/js/787.be8f2d13.chunk.js",
     "static/media/food6.jpeg": "/baserri/static/media/food6.cc055c9d37d7dfaa8c5c.jpeg",
     "static/media/food2.jpeg": "/baserri/static/media/food2.de55d62a4c91d591d98d.jpeg",
@@ -11,6 +11,7 @@
     "static/media/food4.jpeg": "/baserri/static/media/food4.57859a20ad52bbcc6fb9.jpeg",
     "static/media/bg.png": "/baserri/static/media/bg.8a4aef6d7d47c826d7ff.png",
     "static/media/reservations.png": "/baserri/static/media/reservations.10de40c1bbaea7ebdccc.png",
+    "static/media/logo2.jpeg": "/baserri/static/media/logo2.f51401298403ec38185c.jpeg",
     "static/media/food8.jpeg": "/baserri/static/media/food8.b432a0c705acb978d222.jpeg",
     "static/media/food10.jpeg": "/baserri/static/media/food10.9da24d40cb1d3fb66cd7.jpeg",
     "static/media/food11.jpeg": "/baserri/static/media/food11.44c868ad83897381e414.jpeg",
@@ -18,14 +19,15 @@
     "static/media/food7.jpeg": "/baserri/static/media/food7.e2314390183416053fbc.jpeg",
     "static/media/Desdemona-Regular.otf": "/baserri/static/media/Desdemona-Regular.ea148165835b215caefc.otf",
     "static/media/profileBg.jpeg": "/baserri/static/media/profileBg.bc7c96ca3eed9ed649f8.jpeg",
+    "static/media/Orator-Std-Medium.ttf": "/baserri/static/media/Orator-Std-Medium.8d5c1670acaae02594da.ttf",
     "static/media/profile.jpeg": "/baserri/static/media/profile.f7bf3dcb39ec1bc4d5ac.jpeg",
     "index.html": "/baserri/index.html",
-    "main.f6237f94.css.map": "/baserri/static/css/main.f6237f94.css.map",
-    "main.5a1ab465.js.map": "/baserri/static/js/main.5a1ab465.js.map",
+    "main.cefb61ee.css.map": "/baserri/static/css/main.cefb61ee.css.map",
+    "main.42259dc8.js.map": "/baserri/static/js/main.42259dc8.js.map",
     "787.be8f2d13.chunk.js.map": "/baserri/static/js/787.be8f2d13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6237f94.css",
-    "static/js/main.5a1ab465.js"
+    "static/css/main.cefb61ee.css",
+    "static/js/main.42259dc8.js"
   ]
 }
