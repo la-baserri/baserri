@@ -8,6 +8,9 @@ import food5 from './assets/food5.jpeg';
 import food6 from './assets/food6.jpeg';
 import food7 from './assets/food7.jpeg';
 import food8 from './assets/food8.jpeg';
+import food9 from './assets/food9.jpeg';
+import food10 from './assets/food10.jpeg';
+import food11 from './assets/food11.jpeg';
 
 import './App.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
@@ -37,7 +40,7 @@ function App() {
         showThumbs={false}
         showStatus={false}
         dynamicHeight={false}
-        selectedItem={randomNumber(0, 5)}
+        selectedItem={randomNumber(0, 10)}
         animationHandler={'fade'}
         swipeable={false}
       >
@@ -65,6 +68,15 @@ function App() {
         <div>
           <img src={food8} className={'Im'} />
         </div>
+        <div>
+          <img src={food9} className={'Im'} />
+        </div>
+        <div>
+          <img src={food10} className={'Im'} />
+        </div>
+        <div>
+          <img src={food11} className={'Im'} />
+        </div>
       </Carousel>
     )
   };
@@ -75,7 +87,7 @@ function App() {
         <div className='NavContainer'>
           <div className="Nav">
             <img src={logo} className="App-logo" alt="logo" />
-            <a className='NavText'>Santa Monica, CA</a>
+            <a className='NavText'>Los Angeles, CA</a>
             <a className='NavText'>{'thebaserriexperiment\n@gmail.com'}</a>
             <div className="NavItems">
               {/* <a
@@ -86,12 +98,14 @@ function App() {
               >
                 Reservations
               </a> */}
-              <a className="App-link" onClick={() => setNavIndex(0)}>Home</a>
-              <a className="App-link" onClick={() => setNavIndex(1)}>Reservations</a>
-              <a className="App-link" onClick={() => setNavIndex(2)}>About</a>
-              <a className="App-link" onClick={() => setNavIndex(3)}>Contact</a>
+           
+                <a style={navIndex === 0 ? { textDecoration: 'underline' } : {}} className="App-link" onClick={() => setNavIndex(0)}>Home</a>
+          
+              <a className="App-link" style={navIndex === 1 ? { textDecoration: 'underline' } : {}} onClick={() => setNavIndex(1)}>Reservations</a>
+              <a className="App-link" style={navIndex === 2 ? { textDecoration: 'underline' } : {}} onClick={() => setNavIndex(2)}>About</a>
+              <a className="App-link" style={navIndex === 3 ? { textDecoration: 'underline' } : {}} onClick={() => setNavIndex(3)}>Contact</a>
               <div className='Instagram'>
-                <RiInstagramLine size={20} />
+                <a className='InstagramButton' href="https://www.instagram.com/baserri_la" target="_blank" rel="noopener noreferrer"><RiInstagramLine size={20} /></a>
               </div>
             </div>
           </div>
@@ -105,7 +119,9 @@ function App() {
             <div className='TitleContainer'>
               <a className='Title'>{'The Supper Club'}</a>
             </div>
-            <a className='NavText'>{'The brown dog jumped over the green shrub and ran over to the ball. The brown dog jumped over the green shrub and ran over to the ball. The brown dog jumped over the green shrub and ran over to the ball.\n\nThe brown dog jumped over the green shrub and ran over to the ball. '}</a>
+            <a className='NavText'>
+              {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '}
+            </a>
           </div>
         </div>
         }

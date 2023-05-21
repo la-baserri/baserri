@@ -14,7 +14,15 @@ const ReservationsScreen = () => {
         <div className='TitleContainer'>
           <a className='Title'>{'Reservations'}</a>
         </div>
-        <a className='NavText'>{'The brown dog jumped over the green shrub and ran over to the ball. The brown dog jumped over the green shrub and ran over to the ball. The brown dog jumped over the green shrub and ran over to the ball.\n\nThe brown dog jumped over the green shrub and ran over to the ball. '}</a>
+        <a className='NavText'>{'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '}</a>
+        <div className='InputRow'>
+          <div className='Input'>
+            <label>Email</label>
+            <input type="text" name="user_name" style={{ marginRight: 0, width: 300 }} />
+          </div>
+        </div>
+        <input className='Submit' type="submit" value="Join mailing list" />
+
       </div>
     </div>
   );
