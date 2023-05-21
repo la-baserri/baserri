@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react';
-import logo from './assets/logo.png';
+import logo from './assets/logo2.jpeg';
 import food1 from './assets/food1.jpeg';
 import food2 from './assets/food2.jpeg';
 import food3 from './assets/food3.jpeg';
@@ -16,6 +16,7 @@ import './App.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel';
 import { RiInstagramLine } from 'react-icons/ri';
+import { IoMdMenu, IoMdClose } from 'react-icons/io';
 import AboutScreen from './screens/AboutScreen';
 import ReservationsScreen from './screens/ReservationsScreen';
 import ContactScreen from './screens/ContactScreen';
@@ -26,6 +27,12 @@ function App() {
   };
 
   const [navIndex, setNavIndex] = useState(0);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  const selectMobileMenuItem = (index: number) => {
+    setNavIndex(index);
+    setShowMobileMenu(false);
+  }
 
   const Carol = () => {
     return (
@@ -86,7 +93,12 @@ function App() {
       <div className="Content">
         <div className='NavContainer'>
           <div className="Nav">
-            <img src={logo} className="App-logo" alt="logo" />
+            {/* <img src={logo} className="App-logo" alt="logo" /> */}
+            <div className='Logo'>
+              <span className='The'>The</span>
+              <span className='Baserri'>Baserri</span>
+              <span className='Experiment'>Experiment</span>
+            </div>
             <a className='NavText'>Los Angeles, CA</a>
             <a className='NavText'>{'thebaserriexperiment\n@gmail.com'}</a>
             <div className="NavItems">
@@ -99,8 +111,7 @@ function App() {
                 Reservations
               </a> */}
            
-                <a style={navIndex === 0 ? { textDecoration: 'underline' } : {}} className="App-link" onClick={() => setNavIndex(0)}>Home</a>
-          
+              <a style={navIndex === 0 ? { textDecoration: 'underline' } : {}} className="App-link" onClick={() => setNavIndex(0)}>Home</a>
               <a className="App-link" style={navIndex === 1 ? { textDecoration: 'underline' } : {}} onClick={() => setNavIndex(1)}>Reservations</a>
               <a className="App-link" style={navIndex === 2 ? { textDecoration: 'underline' } : {}} onClick={() => setNavIndex(2)}>About</a>
               <a className="App-link" style={navIndex === 3 ? { textDecoration: 'underline' } : {}} onClick={() => setNavIndex(3)}>Contact</a>
@@ -109,6 +120,14 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+        <div className='MobileHeader'>
+          <div className='MobileMenuIcon'>
+            {!showMobileMenu &&
+            <a className='MenuIcon' onClick={() => setShowMobileMenu(true)} target="_blank" rel="noopener noreferrer"><IoMdMenu size={36} /></a>
+            }
+          </div>
+          <img src={logo} className={'MobileLogo'} />
         </div>
         {(navIndex === 0) &&
         <div className="Body">
@@ -137,6 +156,28 @@ function App() {
           // </div>
         }
       </div>
+      {showMobileMenu &&
+      <div className='MobileMenu'>
+        <div className='MobileMenuHeader'>
+          <div className='MobileMenuIcon'>
+            <a className='MenuIcon' onClick={() => setShowMobileMenu(false)} target="_blank" rel="noopener noreferrer"><IoMdClose size={36} /></a>
+          </div>
+        </div>
+        <div className='MobileMenuItems'>
+        <a style={navIndex === 0 ? { textDecoration: 'underline' } : {}} className="Mobile-App-link" onClick={() => selectMobileMenuItem(0)}>Home</a>
+          <a className="Mobile-App-link" style={navIndex === 1 ? { textDecoration: 'underline' } : {}} onClick={() => selectMobileMenuItem(1)}>Reservations</a>
+          <a className="Mobile-App-link" style={navIndex === 2 ? { textDecoration: 'underline' } : {}} onClick={() => selectMobileMenuItem(2)}>About</a>
+          <a className="Mobile-App-link" style={navIndex === 3 ? { textDecoration: 'underline' } : {}} onClick={() => selectMobileMenuItem(3)}>Contact</a>
+          <div className='Instagram' style={{ marginTop: 20 }}>
+            <a className='InstagramButton' style={{ color: '#fff' }} href="https://www.instagram.com/baserri_la" target="_blank" rel="noopener noreferrer"><RiInstagramLine size={40} /></a>
+          </div>
+          <div className='MobileInfoContainer'>
+          <a className='MobileInfo'>Los Angeles, CA</a>
+          <a className='MobileInfo'>{'thebaserriexperiment@gmail.com'}</a>
+          </div>
+        </div>
+      </div>
+      }
     </div>
   );
 }

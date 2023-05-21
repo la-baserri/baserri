@@ -1,7 +1,8 @@
 import React, { Component, useRef, useState } from 'react';
 import '../../src/App.css';
 import contact from '../assets/reservations.png';
- 
+import { RiCheckboxFill } from 'react-icons/ri';
+
 import './styles.css';
 const ContactScreen = () => {
 
@@ -19,25 +20,26 @@ const ContactScreen = () => {
   };
 
   return (
-    <div className='container'>
-      <img src={contact} className={'ContactBg'} />
+    <div className='Body' style={{ width: '100%' }}>
+    <div className='Right' style={{ backgroundImage:`url(${contact})`, backgroundRepeat:"no-repeat", backgroundSize: "cover",  backgroundPosition: 'center center' }}>
+      {/* <img src={contact} className={'ContactBg'} /> */}
 
-      <div className='TitleContainer'>
+      <div className='TitleContainer' style={{ marginTop: 0, backgroundColor: '#fff' }}>
         <a className='Title'>{'Contact'}</a>
       </div>
       <div className='ContactForm'>
       <form ref={form} onSubmit={sendEmail}>
         <div className='InputRow'>
           <div className='Input'>
-            <label>First name</label>
+            <label>Name</label>
             <input type="text" name="user_name" />
           </div>
           <div className='Input'>
-            <label>Last name</label>
+            <label>Email</label>
             <input type="email" name="user_email" />
           </div>
         </div>
-        <div className='InputRow'>
+        {/* <div className='InputRow'>
           <div className='Input'>
             <label>Email</label>
             <input type="text" name="user_name" />
@@ -46,17 +48,24 @@ const ContactScreen = () => {
             <label>Subject</label>
             <input type="email" name="user_email" />
           </div>
-        </div>
+        </div> */}
         <div className='InputRow'>
         <div className='TextArea'>
         <label>Message</label>
         <textarea name="message" />
         </div>
         </div>
-       
-        <input className='Submit' type="submit" value="Send message" />
+       <div className='SubmitRow'>
+        <div className='Checkbox'>
+        <RiCheckboxFill size={26} />
+        <span style={{marginLeft: 10, fontSize: 14}}>{'Join mailing list for exclusive updates on upcoming events'}</span>
+        </div>
+       <input className='Submit' type="submit" value="Send message" />
+
+       </div>
       </form>
       </div>
+    </div>
     </div>
   );
 }

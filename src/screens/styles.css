@@ -1,6 +1,7 @@
 .container {
   width: 75%;
   height: 90vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,19 +14,20 @@
 
 .ContactBg {
   object-fit:cover;
-  width: 75%;
   z-index: 1;
-  height: 90vh;
+  height: 100%;
   position: absolute;
   z-index: 1;
+  max-height: 820px;
+  min-width: 100%;
 }
 
 .ContactForm {
-  width: 75%;
+  width: 90%;
   background-color: #fff;
-  height: 380px;
   z-index: 2;
-  padding: 35px;
+  padding: 40px;
+  max-width: 700px;
 }
 
 .Profile {
@@ -33,4 +35,18 @@
   height: 130px;
   width: 130px;
   margin-bottom: 40px;
+}
+
+.SubmitRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
