@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/baserri/static/css/main.4f769766.css",
-    "main.js": "/baserri/static/js/main.65884f7b.js",
+    "main.css": "/baserri/static/css/main.f6237f94.css",
+    "main.js": "/baserri/static/js/main.5a1ab465.js",
     "static/js/787.be8f2d13.chunk.js": "/baserri/static/js/787.be8f2d13.chunk.js",
     "static/media/food6.jpeg": "/baserri/static/media/food6.cc055c9d37d7dfaa8c5c.jpeg",
     "static/media/food2.jpeg": "/baserri/static/media/food2.de55d62a4c91d591d98d.jpeg",
@@ -16,16 +16,16 @@
     "static/media/food11.jpeg": "/baserri/static/media/food11.44c868ad83897381e414.jpeg",
     "static/media/food9.jpeg": "/baserri/static/media/food9.409ac4fe952321e7b95c.jpeg",
     "static/media/food7.jpeg": "/baserri/static/media/food7.e2314390183416053fbc.jpeg",
+    "static/media/Desdemona-Regular.otf": "/baserri/static/media/Desdemona-Regular.ea148165835b215caefc.otf",
     "static/media/profileBg.jpeg": "/baserri/static/media/profileBg.bc7c96ca3eed9ed649f8.jpeg",
-    "static/media/logo.png": "/baserri/static/media/logo.1b6c684c8e5e9d6aba71.png",
     "static/media/profile.jpeg": "/baserri/static/media/profile.f7bf3dcb39ec1bc4d5ac.jpeg",
     "index.html": "/baserri/index.html",
-    "main.4f769766.css.map": "/baserri/static/css/main.4f769766.css.map",
-    "main.65884f7b.js.map": "/baserri/static/js/main.65884f7b.js.map",
+    "main.f6237f94.css.map": "/baserri/static/css/main.f6237f94.css.map",
+    "main.5a1ab465.js.map": "/baserri/static/js/main.5a1ab465.js.map",
     "787.be8f2d13.chunk.js.map": "/baserri/static/js/787.be8f2d13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f769766.css",
-    "static/js/main.65884f7b.js"
+    "static/css/main.f6237f94.css",
+    "static/js/main.5a1ab465.js"
   ]
 }
