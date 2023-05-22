@@ -32,6 +32,7 @@
 
 @media (max-width: 992px) {
   .ContactForm {
+    width: 96%;
     padding: 20px;
   }
 }
