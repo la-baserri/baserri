@@ -114,7 +114,7 @@
   position: absolute;
   height: 60px;
   top: 45px;
-  left: 20px;
+  left: 5px;
   width: 60px;
   cursor: pointer;
   display: flex;
@@ -396,7 +396,7 @@
 
 @media (max-width: 992px) {
   .Title {
-    font-size: 36px;
+    font-size: 32px;
   }
 }
 
