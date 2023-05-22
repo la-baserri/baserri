@@ -112,10 +112,10 @@
 
 .MobileMenuIcon {
   position: absolute;
-  height: 80px;
-  top: 30px;
-  left: 10px;
-  width: 80px;
+  height: 60px;
+  top: 45px;
+  left: 20px;
+  width: 60px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -161,8 +161,8 @@
   font-weight: 700;
   font-size: 24px;
   text-decoration: none;
-  padding: 25px 0;
-  font-family: 'Nunito';
+  padding: 20px 0;
+  font-family: 'Ubuntu Mono';
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -172,7 +172,7 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  bottom: 75px;
+  bottom: 50px;
 }
 
 .MobileInfo {
@@ -181,7 +181,7 @@
   font-size: 16px;
   text-decoration: none;
   margin-top: 15px;
-  font-family: 'Nunito';
+  font-family: 'Ubuntu Mono';
 }
 
 .App-logo {
@@ -246,7 +246,7 @@
 @media (max-width: 992px) {
   .CarouselContainer {
     width: 100%;
-    padding-top: 300px;
+    padding-top: 100px;
   }
 }
 
@@ -315,18 +315,38 @@
   color: #282828;
   font-weight: 500;
   font-size: 14px;
-  font-family: 'Nunito';
+  font-family: 'Ubuntu Mono';
   text-align: center;
   margin-bottom: 15px;
 }
 
+.ContentText {
+  color: #282828;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Ubuntu Mono';
+  text-align: center;
+  margin-bottom: 15px;
+  line-height: 24px;
+}
+
+@media (max-width: 992px) {
+  .NavText { 
+    font-size: 17px;
+  }
+  .ContentText {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
 .App-link {
   color: #282828;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 18px;
   text-decoration: none;
   padding: 10px 0;
-  font-family: 'Nunito';
+  font-family: 'Ubuntu Mono';
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -351,7 +371,6 @@
 
 @media (max-width: 992px) {
   .Right {
-    
     padding: 50px 35px 100px;
     margin-right: 0;
   }
@@ -373,6 +392,12 @@
   text-align: center;
   margin-bottom: 15px;
   text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  .Title {
+    font-size: 36px;
+  }
 }
 
 @keyframes App-logo-spin {
@@ -417,11 +442,9 @@
 .Input {
   display: flex;
   flex-direction: column;
-
   text-align: left;
   width: 48%;
 }
-
 
 .TextArea {
   display: flex;
@@ -429,6 +452,7 @@
   flex: 1;
   text-align: left;
   width: 100%;
+  margin-bottom: 25px;
 }
 
 textarea {
@@ -438,7 +462,7 @@ textarea {
   width: 100%;
   border: 1px solid #282828;
   border-radius: 4px;
-  font-family: 'Orator';
+  font-family: 'Nunito';
   margin-right: 0px;
   font-size: 16px;
   font-weight: 600;
@@ -450,24 +474,30 @@ textarea {
 @media (max-width: 992px) {
   .InputRow {
     flex-direction: column;
+    margin-bottom: 0;
   }
   .Input {
     width: 100%;
     max-width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
   }
   .TextArea, textarea {
-
     width: 100%;
     margin-right: 0;
   }
 }
 
+@media (min-width: 993px) {
+  .TextArea, textarea {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
 
 label {
-  font-weight: 600;
-  font-size: 12px;
-  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Ubuntu Mono';
   text-transform: uppercase;
 }
 
@@ -477,27 +507,35 @@ input {
   height: 36px;
   border: 1px solid #282828;
   border-radius: 4px;
-  font-family: 'Orator';
+  font-family: 'Nunito';
   margin-right: 0px;
-  padding-left: 0px;
-  font-size: 16px;
+  padding-left: 12px;
+  font-size: 15px;
   font-weight: 600;
 }
 
 .Submit {
-  background-color: #fff;
-  font-family: 'Orator';
-  font-size: 14px;
+  background-color: #282828;
+  color: #fff;
+  font-family: 'Ubuntu Mono';
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
   padding: 0 20px;
   height: 40px;
+  width: 100%;
   cursor: pointer;
 }
 
 .Submit:hover {
-  background-color: #282828;
-  color: #fff;
+  opacity: 0.75;
   transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 992px) {
+  .Submit {
+    height: 55px;
+    width: 100%;
+  }
 }

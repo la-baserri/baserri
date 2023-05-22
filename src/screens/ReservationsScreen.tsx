@@ -14,11 +14,11 @@ const ReservationsScreen = () => {
         <div className='TitleContainer'>
           <a className='Title'>{'Reservations'}</a>
         </div>
-        <a className='NavText'>{'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '}</a>
+        <a className='ContentText'>{'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '}</a>
         <div className='InputRow' style={{ marginTop: 35 }}>
-          <div className='Input'>
+          <div className='Input' style={{ width: '100%' }}>
             <label>Email</label>
-            <input type="text" name="user_name" style={{ marginRight: 0, width: 300 }} />
+            <input type="text" name="user_name" placeholder='Enter your email' style={{ marginRight: 0, width: '100%' }} />
           </div>
         </div>
         <input className='Submit' type="submit" value="Join mailing list" />
