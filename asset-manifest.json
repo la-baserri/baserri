@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/baserri/static/css/main.afd9e6fe.css",
+    "main.css": "/baserri/static/css/main.204d6f1b.css",
     "main.js": "/baserri/static/js/main.a4f84664.js",
     "static/js/787.be8f2d13.chunk.js": "/baserri/static/js/787.be8f2d13.chunk.js",
     "static/media/food6.jpeg": "/baserri/static/media/food6.cc055c9d37d7dfaa8c5c.jpeg",
@@ -22,12 +22,12 @@
     "static/media/Orator-Std-Medium.ttf": "/baserri/static/media/Orator-Std-Medium.8d5c1670acaae02594da.ttf",
     "static/media/profile.jpeg": "/baserri/static/media/profile.f7bf3dcb39ec1bc4d5ac.jpeg",
     "index.html": "/baserri/index.html",
-    "main.afd9e6fe.css.map": "/baserri/static/css/main.afd9e6fe.css.map",
+    "main.204d6f1b.css.map": "/baserri/static/css/main.204d6f1b.css.map",
     "main.a4f84664.js.map": "/baserri/static/js/main.a4f84664.js.map",
     "787.be8f2d13.chunk.js.map": "/baserri/static/js/787.be8f2d13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afd9e6fe.css",
+    "static/css/main.204d6f1b.css",
     "static/js/main.a4f84664.js"
   ]
 }
