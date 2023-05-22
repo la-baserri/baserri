@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/baserri/static/css/main.cefb61ee.css",
-    "main.js": "/baserri/static/js/main.42259dc8.js",
+    "main.css": "/baserri/static/css/main.23e36268.css",
+    "main.js": "/baserri/static/js/main.40c69171.js",
     "static/js/787.be8f2d13.chunk.js": "/baserri/static/js/787.be8f2d13.chunk.js",
     "static/media/food6.jpeg": "/baserri/static/media/food6.cc055c9d37d7dfaa8c5c.jpeg",
     "static/media/food2.jpeg": "/baserri/static/media/food2.de55d62a4c91d591d98d.jpeg",
@@ -22,12 +22,12 @@
     "static/media/Orator-Std-Medium.ttf": "/baserri/static/media/Orator-Std-Medium.8d5c1670acaae02594da.ttf",
     "static/media/profile.jpeg": "/baserri/static/media/profile.f7bf3dcb39ec1bc4d5ac.jpeg",
     "index.html": "/baserri/index.html",
-    "main.cefb61ee.css.map": "/baserri/static/css/main.cefb61ee.css.map",
-    "main.42259dc8.js.map": "/baserri/static/js/main.42259dc8.js.map",
+    "main.23e36268.css.map": "/baserri/static/css/main.23e36268.css.map",
+    "main.40c69171.js.map": "/baserri/static/js/main.40c69171.js.map",
     "787.be8f2d13.chunk.js.map": "/baserri/static/js/787.be8f2d13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cefb61ee.css",
-    "static/js/main.42259dc8.js"
+    "static/css/main.23e36268.css",
+    "static/js/main.40c69171.js"
   ]
 }
