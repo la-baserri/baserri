@@ -169,7 +169,7 @@ function App() {
           <a className="Mobile-App-link" style={navIndex === 2 ? { textDecoration: 'underline' } : {}} onClick={() => selectMobileMenuItem(2)}>About</a>
           <a className="Mobile-App-link" style={navIndex === 3 ? { textDecoration: 'underline' } : {}} onClick={() => selectMobileMenuItem(3)}>Contact</a>
           <div className='Instagram' style={{ marginTop: 20 }}>
-            <a className='InstagramButton' style={{ color: '#fff' }} href="https://www.instagram.com/baserri_la" target="_blank" rel="noopener noreferrer"><RiInstagramLine size={40} /></a>
+            <a className='InstagramButton' style={{ color: '#fff' }} href="https://www.instagram.com/baserri_la" target="_blank" rel="noopener noreferrer"><RiInstagramLine size={30} /></a>
           </div>
           <div className='MobileInfoContainer'>
           <a className='MobileInfo'>Los Angeles, CA</a>

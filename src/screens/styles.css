@@ -30,6 +30,12 @@
   max-width: 700px;
 }
 
+@media (max-width: 992px) {
+  .ContactForm {
+    padding: 20px;
+  }
+}
+
 .Profile {
   border-radius: 130px;
   height: 130px;
