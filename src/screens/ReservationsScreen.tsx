@@ -18,11 +18,10 @@ const ReservationsScreen = () => {
         <div className='InputRow' style={{ marginTop: 35 }}>
           <div className='Input' style={{ width: '100%' }}>
             <label>Email</label>
-            <input type="text" name="user_name" placeholder='Enter your email' style={{ marginRight: 0, width: '100%' }} />
+            <input type="text" name="user_name" placeholder='Enter your email' style={{ marginRight: 20, width: '94%', paddingRight: 10 }} />
           </div>
         </div>
         <input className='Submit' type="submit" value="Join mailing list" />
-
       </div>
     </div>
   );

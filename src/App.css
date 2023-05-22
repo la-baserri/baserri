@@ -54,7 +54,7 @@
   .Content {
     flex-direction: column;
     padding: 0 0px;
-    margin-bottom: 300px;
+    margin-bottom: 50px;
   }
 }
 
@@ -112,7 +112,7 @@
 .MobileMenuIcon {
   position: absolute;
   height: 60px;
-  top: 20px;
+  top: 25px;
   left: 10px;
   width: 60px;
   cursor: pointer;
@@ -485,6 +485,7 @@ textarea {
     width: 100%;
     max-width: 100%;
     margin-bottom: 25px;
+    margin-right: 0 !important;
   }
   .TextArea, textarea {
     width: 100%;

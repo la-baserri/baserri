@@ -32,7 +32,7 @@ const ContactScreen = () => {
         <div className='ContactForm'>
           <form ref={form} onSubmit={sendEmail}>
             <div className='InputRow'>
-              <div className='Input'>
+              <div className='Input' style={{ marginRight: 25 }}>
                 <label>Name</label>
                 <input type="text" name="user_name" />
               </div>
