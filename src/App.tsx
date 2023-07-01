@@ -34,6 +34,8 @@ function App() {
     setShowMobileMenu(false);
   }
 
+  const about = "James Leger is a culinary artist whose creations transport diners on a tantalizing journey to the heart of Spain. Inspired by the rich flavors and traditions, James focuses on creating dishes that showcase fresh seasonal ingredients and employs natural cooking techniques to bring out the true essence of Spain's diverse culinary heritage."
+
   const Carol = () => {
     return (
       <Carousel
@@ -139,7 +141,7 @@ function App() {
               <a className='Title'>{'The Supper Club'}</a>
             </div>
             <a className='ContentText'>
-              {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '}
+              {about}
             </a>
           </div>
         </div>

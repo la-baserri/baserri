@@ -5,6 +5,8 @@ import image from '../assets/bg.png';
 import './styles.css';
 const ReservationsScreen = () => {
 
+  const TEXT = "TO receive updates on the latest supper club events or to schedule a dinner, join our mailing list.";
+  const SUBTEXT = "Thank you for supporting the Baserri experiment.  We refund in full three days prior to event.  We keep a 50$ conscience fee this is do to the fact we locally source and utilize the farmers market to keep our menu as fresh and sustainable as possible.";
   return (
     <div className="Body">
       <div className='CarouselContainer'>
@@ -14,7 +16,7 @@ const ReservationsScreen = () => {
         <div className='TitleContainer'>
           <a className='Title'>{'Reservations'}</a>
         </div>
-        <a className='ContentText'>{'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '}</a>
+        <a className='ContentText'>{TEXT}</a>
         <div className='InputRow' style={{ marginTop: 35 }}>
           <div className='Input' style={{ width: '100%' }}>
             <label>Email</label>
@@ -22,6 +24,7 @@ const ReservationsScreen = () => {
           </div>
         </div>
         <input className='Submit' type="submit" value="Join mailing list" />
+        <a className='ContentSubtext'>{SUBTEXT}</a>
       </div>
     </div>
   );

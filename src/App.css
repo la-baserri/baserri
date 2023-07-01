@@ -336,6 +336,18 @@
   line-height: 20px;
 }
 
+.ContentSubtext {
+  color: #282828;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: 'Ubuntu Mono';
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 15px;
+  line-height: 16px;
+  bottom: 0;
+}
+
 @media (max-width: 992px) {
   .NavText { 
     font-size: 17px;
