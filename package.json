@@ -1,7 +1,7 @@
 {
   "name": "baserri",
   "version": "0.1.0",
-  "homepage": "https://la-baserri.github.io/baserri",
+  "homepage": "https://thebaserriexperiment.com",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.4",
