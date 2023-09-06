@@ -1,24 +1,16 @@
 import React, { Component, useRef, useState } from 'react';
 import '../../src/App.css';
 import contact from '../assets/reservations.png';
-import { RiCheckboxFill, RiCheckboxBlankLine } from 'react-icons/ri';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 import './styles.css';
 const ContactScreen = () => {
-
   const form = useRef<any>();
-
-  const [checked, setChecked] = useState(true);
 
   const [state, handleSubmit] = useForm("mnqkabye");
   if (state.succeeded) {
     console.log('FORM SENT');
-      return <p>Thanks for joining!</p>;
-  }
-
-  // const sendEmail = (e: any) => {
-   
-  // };
+      return <p style={{ color: '#fff', textAlign: 'center', fontSize: 20, marginTop: 25, width: '100%' }}>Thanks for the message! We'll get back to you</p>;
+  };
 
   return (
     <div className='Body' style={{ width: '100%' }}>
